@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9e5e"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:scrollbarSize="40dp"
+    tools:context=".register">
+
+    <TextView
+    android:id="@+id/textView3"
+    android:layout_width="match_parent"
+    android:layout_height="290dp"
+    android:fontFamily="@font/bangers"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:scrollbarSize="30dp"
+    android:text="@string/welcome_to_tic_tac_toc"
+    android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/carter_one"
+        android:hint="@string/sign_in_to_contine"
+        android:scrollbarSize="14sp"
+        android:text="@string/enter_your_details"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:fontFamily="@font/carter_one"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:hint="@string/email_address"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:fontFamily="@font/carter_one"
+        android:ems="10"
+        android:inputType="phone"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:hint="@string/password"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:text="@string/create_an_account" />
+
+
+</LinearLayout>

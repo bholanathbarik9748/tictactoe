@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">tic tac toe</string>
+    <string name="made_in_india" translatable="false">MADE IN INDIA</string>
+    <string name="TODO" translatable="false">TODO</string>
+    <string name="welcome_to_tic_tac_toe" translatable="false">welcome to tic tac toe</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="welcome_to_tic_tac_toc" translatable="false">welcome to tic tac toc</string>
+    <string name="hello_there_welcome_back" translatable="false">HELLO THERE, WELCOME BACK :</string>
+    <string name="sigh_in_to_continue" translatable="false">Sigh In to Continue</string>
+    <string name="username" translatable="false">Username</string>
+    <string name="forget_password" translatable="false">FORGET PASSWORD ?</string>
+    <string name="or" translatable="false">OR</string>
+    <string name="skip" translatable="false">skip</string>
+    <string name="enter_your_details" translatable="false">enter your details :</string>
+    <string name="sign_in_to_contine" translatable="false">sign in to contine:</string>
+    <string name="email_address" translatable="false">Email Address</string>
+    <string name="phone_number" translatable="false">phone Number</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="create_an_account" translatable="false">Create an account</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="let_s_start">let\'s start</string>
+    <string name="base">base</string>
+    <string name="grid" />
+</resources>
